@@ -3,6 +3,10 @@
 
 A modern, responsive ecommerce website built with React for selling beauty and skincare products. Features user authentication, shopping cart, wishlist, PayPal integration, and a beautiful UI with dark/light theme support.
 
+## 👩‍💻 My Role
+
+Developed as part of a team, where I handled the frontend — building the UI, managing interactions, and implementing key features like authentication, cart, checkout and payment.
+
 
 ## Features
 
@@ -14,8 +18,6 @@ A modern, responsive ecommerce website built with React for selling beauty and s
 - **PayPal Integration**: Secure payment processing
 - **Dark/Light Theme**: Toggle between themes for better user experience
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Product Reviews**: View and add ratings and reviews
-- **Order Management**: Track order history and status
 
 ## 🛠️ Tech Stack
 
