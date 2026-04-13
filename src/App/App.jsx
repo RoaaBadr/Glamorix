@@ -21,7 +21,7 @@ const TryLogin = lazy(() => import("../Pages/TryLogin"));
 //import UserProfile from '../Pages/UserProfile';
 const UserProfile = lazy(() => import("../Pages/UserProfile"));
 
-const basename = import.meta.env.PROD ? "/Glamorix" : "/";
+const basename = import.meta.env.BASE_URL;
 
 function App() {
   return (
