@@ -1,6 +1,6 @@
 import "./App.css";
 import { lazy } from "react";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../Pages/Layout";
 import Home from "../Pages/Home";
 import Products from "../Pages/Products";
@@ -21,10 +21,12 @@ const TryLogin = lazy(() => import("../Pages/TryLogin"));
 //import UserProfile from '../Pages/UserProfile';
 const UserProfile = lazy(() => import("../Pages/UserProfile"));
 
+const basename = import.meta.env.PROD ? "/Glamorix" : "/";
+
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <CartContext>
           <UserContext>
             <ProductContext>
